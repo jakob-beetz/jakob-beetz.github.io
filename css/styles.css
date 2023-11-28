@@ -10985,6 +10985,16 @@ section.cta:before {
   background: rgba(0, 0, 0, 0.5);
 }
 
+.circular-marakesh-mask {
+  width: 100%; /* Adjust as needed */
+  height: 0; /* Initial height is 0 */
+  padding-top: 100%; /* Makes the height equal to the width */
+  border-radius: 50%; /* Circular shape */
+  background-image: url("../assets/img/marakesh_night.jpg"); /* Your image path */
+  background-size: cover;
+  background-position: center;
+}
+
 .icon-feature {
   font-size: 4rem;
 }
